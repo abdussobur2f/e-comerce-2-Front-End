@@ -1,0 +1,65 @@
+.products p {
+  margin-bottom: 0 !important;
+}
+.products ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.products a {
+  color: #080808;
+  cursor: pointer;
+}
+.products .wis_and_compare {
+  transition: 0.4s;
+  cursor: pointer;
+}
+.products .wis_and_compare a {
+  margin-right: 5px;
+}
+.products .wis_and_compare h4:hover {
+  color: #f64087;
+}
+.products .cout_product button {
+  border: none !important;
+  outline: none;
+  background: transparent;
+}
+.products .ourFlowers {
+  margin-top: 10px;
+}
+.products .ourFlowers .bstwitter {
+  background-color: #1DA1F2 !important;
+}
+.products .ourFlowers .bsfacebok {
+  background-color: #007bc7 !important;
+}
+.products .ourFlowers .bsgoogle {
+  background-color: #f2441d !important;
+}
+.products .ourFlowers .bspinterest {
+  background-color: #f2391d !important;
+}
+.products .ourFlowers span {
+  margin-left: 10px;
+  font-size: 15px;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  text-transform: capitalize;
+}
+.products .ourFlowers img,
+.products .ourFlowers svg {
+  vertical-align: middle;
+  background: rgb(0, 0, 0);
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 50%;
+  transition: 0.4s;
+  cursor: pointer;
+  color: #fff;
+}
+.products .ourFlowers img:hover,
+.products .ourFlowers svg:hover {
+  background-color: #000000 !important;
+}/*# sourceMappingURL=Products.css.map */

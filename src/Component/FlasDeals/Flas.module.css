@@ -1,0 +1,63 @@
+.flasd .card {
+  border-radius: 0 !important;
+  background-color: saddlebrown;
+  text-align: left;
+}
+.flasd .card img {
+  border-radius: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+.flasd .timeCOunt {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.flasd .timeCOunt .cicle {
+  background-color: antiquewhite;
+  text-align: center;
+}
+.flasd .timeCOunt .cicle .circlItem {
+  background-color: darkcyan;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  line-height: 14px;
+  background-color: darkcyan;
+}
+.flasd .timeCOunt .cicle h4 {
+  font-size: 20px;
+}
+.flasd .timeCOunt .cicle span {
+  font-size: 15px;
+}
+.flasd .timeItem {
+  height: 40%;
+}
+.flasd .timeItem h3 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 25px;
+}
+.flasd .timeItem .item-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flasd .timeItem .item-box .item-list {
+  margin: 0 2px;
+  line-height: 2px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.flasd .timeItem .item-box .item-list h3 {
+  background-color: rgb(194, 194, 211);
+  font-size: 20px;
+  padding: 10px;
+}/*# sourceMappingURL=Flas.module.css.map */

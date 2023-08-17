@@ -1,0 +1,130 @@
+ 
+ 
+
+
+
+footer{
+    background-color: #ffffff;
+    position: relative;
+    ul.footer_item{
+         padding: 0;
+            li{
+                list-style: none;
+                margin-bottom: 10px;
+font-size: 15px;
+                &:first-child{
+                    margin-bottom: 10px;
+                    font-weight: 600;
+                    font-size: 15px;
+                    padding-top: 20px;
+                }
+
+            
+                a{
+                    text-decoration: none !important;
+          color: #777;
+                    cursor: pointer;
+                    text-transform: capitalize;
+                    &:hover{
+                        color:var(--btn-color) ;
+                    }
+                }
+            }
+    }
+.input-group{
+    .input-group-text{
+        border-radius: 0 !important;
+        color: #fff;
+
+    }
+    input{
+        border-radius: 0 !important;
+        outline: none !important;
+ 
+
+      
+    }
+    .form-control:focus {
+outline: none !important; 
+box-shadow:none !important;
+    
+    }
+}
+
+
+h3{
+    font-size: 15px;
+    font-weight: 600;
+    padding-top:20px;
+}
+p{
+    font-size: 15px;
+    color: #000000;
+}
+
+.ourFlowers {
+    margin-top: 10px;
+.bstwitter{
+background-color: #1DA1F2 !important;
+}
+.bsfacebok{
+background-color: #007bc7 !important;
+
+
+}.bsgoogle{
+background-color: #f2441d !important;
+
+
+}   
+
+.bspinterest{
+background-color: #f2391d !important;
+
+}
+
+span {
+        margin-left: 10px;
+        font-size: 15px;
+        max-width: 50px;
+        max-height: 50px;
+        border-radius: 50%;
+        text-transform: capitalize;
+
+
+
+    }
+
+    img,
+    svg {
+        vertical-align: middle;
+        background: rgb(0, 0, 0);
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+        border-radius: 50%;
+        transition: .4s;
+        cursor: pointer;
+        color: #fff;
+
+        &:hover {
+            background-color: #000000 !important;
+        }
+
+    }
+}
+.privecy{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+    background-color: #f5f5f5;
+    
+    p{
+        margin-bottom: 0;
+        font-size: 15px;
+        color: #000000;
+    }
+}
+}

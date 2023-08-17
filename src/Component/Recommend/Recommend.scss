@@ -1,0 +1,240 @@
+.recommend {
+   .card {
+      font-family: 'Poppins', sans-serif;
+ 
+      &:hover .car_btn {
+         opacity: 1 !important;
+      }
+ 
+      &:hover .hover_item {
+        display: block !important;
+      }
+ 
+
+      position: relative;
+
+      border-radius: 0 !important;
+
+      img {
+         height: 200px;
+         position: relative;
+         object-position: top;
+
+
+
+      }
+
+      p {
+         margin: 0;
+         white-space: wrap;
+         font-family: 'Poppins', sans-serif;
+
+      }
+
+      &::before {
+         content: 'SALE!';
+         display: inline-block;
+         position: absolute;
+         z-index: 100;
+         top: 10px;
+         left: 10px;
+         background-color: #f3426d;
+         color: #fff;
+         font-size: 15px;
+         padding: 0px 5px;
+
+      }
+
+
+      .card-body {
+         position: relative;
+         font-family: 'Poppins', sans-serif;
+         padding-top: 5px;
+         padding-left: 10px;
+         .car_btn {
+            position: absolute;
+            top: -37px;
+            text-align: center;
+            display: block;
+            background: #777;
+            width: 100%;
+            left: 0;
+            padding: 5px 0;
+            transition: .4s;
+
+            opacity: 0;
+
+
+
+            &:hover {
+               background-color: var(--btn-color);
+               color: #ffffff;
+            }
+
+            a {
+               font-size: 18px;
+               text-transform: capitalize;
+               color: #ffffff;
+
+               font-weight: 400;
+
+
+            }
+
+
+         }
+
+
+         .card-text {
+            p {
+               font-size: 15px;
+               color: #141313;
+               /* font-weight: 200; */
+               color: #000000;
+               font-weight: 400;
+            }
+
+            strong {
+               font-size: 15px;
+               color: #000;
+               font-weight: 500;
+
+               span {
+                  font-size: 12px;
+                  text-decoration: line-through;
+                  font-weight: 300;
+               }
+
+
+            }
+
+            .star {
+               span {
+                  font-size: 18px;
+
+                  color: #e9253f;
+               }
+            }
+
+         }
+      }
+
+      .hover_item {
+         background-color: #f3426d;
+display: none;
+    transition: .4s;
+         .icon_product {
+            position: absolute;
+            top: 20px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+        
+
+     .hover-content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   padding:0 5px ;
+&:hover a {
+   background-color: var(--btn-color);
+ 
+ display: block;
+ 
+
+}
+
+  a {
+   font-size: 15px;
+   color: var(--back-color);
+   text-transform: capitalize;
+   z-index: 100;
+    color: #fff;
+   margin-bottom: 0 !important;
+   padding: 0 5px;
+  display: none;
+   transition: 0.4s;
+   position: absolute;
+   left: -77px;
+   cursor: pointer;
+transition: .4s;
+
+   /* background: antiquewhite; */
+}
+.view{
+   text-decoration: none;
+    
+   left: -42px;
+}
+.buy{
+   
+   left: -34px;
+   text-decoration: none;
+}
+.whis{
+   
+   left: -63px;
+   text-decoration: none;
+}
+
+      span {
+         
+         color: #777;
+         background-color: #ffffff;
+         border-radius: 50%;
+         transition: all .3s;
+         width: 30px;
+         height: 30px;
+         font-size: 18px;
+         cursor: pointer;
+         font-weight: 100 !important;
+ 
+         display: flex;
+         align-items: center;
+         justify-content: center;
+
+         &:hover {
+            background-color: var(--btn-color);
+            color: #fff;
+
+         }
+         &:hover a {
+            background-color: var(--btn-color);
+            color: #fff;
+ 
+         }
+  
+
+       
+      }
+     }
+         }
+
+
+      }
+   }
+}
+
+@media screen and (max-width:575px) {
+   .recommend {
+      .rowColumm {
+         width: 50% !important;
+
+         .card {
+            img {
+               height: 150px !important;
+               object-fit: cover;
+            }
+         }
+
+         &:nth-child(1) {
+            width: 100% !important;
+            height: 100%;
+         }
+      }
+   }
+
+}

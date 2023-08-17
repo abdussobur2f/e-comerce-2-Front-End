@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+import './Main.scss'
+
+import Layout from './Layout/Layout';
+// import Hero from './Component/hero/Hero';
+// import NewAri from './Component/NewArivel/NewAri';
+// import FlasDeals from './Component/FlasDeals/FlasDeals'
+// import HotDeals from './Component/pages/HotDeals';
+// import Recommend from './Component/Recommend/Recommend'
+ 
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+  
+ <Layout/>
+ 
+
+ 
+ 
+
+ </>
+  )
 }
 
-export default App;
+export default App
+
+

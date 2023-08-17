@@ -1,0 +1,47 @@
+:root {
+  --back-color: #f8f9fa;
+  --btn-color: #f3426d;
+  --hover: rgb(231, 166, 44);
+}
+
+.blogs img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.blogs .blog_item .content_blogs {
+  text-transform: capitalize;
+}
+.blogs .blog_item .content_blogs img {
+  max-height: 70px;
+  max-width: 70px;
+  min-height: 70px;
+  border-radius: 50% !important;
+}
+.blogs .blog_item h5 {
+  text-align: center;
+}
+.blogs .wrapper-2 input {
+  border-radius: 0 !important;
+  outline: none !important;
+}
+.blogs .wrapper-2 .input-group-text {
+  border-radius: 0 !important;
+  outline: none !important;
+}
+.blogs .wrapper-2 .recent_post {
+  box-shadow: 0px 4px 20px -30px black;
+  border: 1px solid #e7e6e6;
+  margin: 20px 0;
+}
+.blogs .wrapper-2 ul li {
+  margin-bottom: 10px;
+  border: 1px solid #e7e6e6;
+  padding: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.blogs .wrapper-2 ul li:hover {
+  color: var(--btn-color);
+}/*# sourceMappingURL=Blog.css.map */

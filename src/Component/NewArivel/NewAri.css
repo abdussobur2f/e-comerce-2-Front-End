@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea:wght@700&family=Inter:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@300&display=swap");
+:root {
+  --back-color: #f8f9fa;
+  --btn-color: #f3426d;
+  --hover: black;
+}
+
+.newAri .swiper-slide {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.newAri .swiper-slide img {
+  position: relative;
+  margin: auto !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+}
+.newAri .swiper-slide p {
+  margin-top: 20px;
+}
+
+.swiper-pagination {
+  position: static !important;
+  text-align: center;
+  transition: 0.3s opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+
+@media screen and (max-width: 1024px) {
+  .swiper-button-prev, .swiper-button-next {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .newAri img {
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=NewAri.css.map */

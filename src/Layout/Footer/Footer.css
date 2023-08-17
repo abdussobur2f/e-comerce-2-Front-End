@@ -1,0 +1,101 @@
+footer {
+  background-color: #ffffff;
+  position: relative;
+}
+footer ul.footer_item {
+  padding: 0;
+}
+footer ul.footer_item li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+footer ul.footer_item li:first-child {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  padding-top: 20px;
+}
+footer ul.footer_item li a {
+  text-decoration: none !important;
+  color: #777;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+footer ul.footer_item li a:hover {
+  color: var(--btn-color);
+}
+footer .input-group .input-group-text {
+  border-radius: 0 !important;
+  color: #fff;
+}
+footer .input-group input {
+  border-radius: 0 !important;
+  outline: none !important;
+}
+footer .input-group .form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+footer h3 {
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+footer p {
+  font-size: 15px;
+  color: #000000;
+}
+footer .ourFlowers {
+  margin-top: 10px;
+}
+footer .ourFlowers .bstwitter {
+  background-color: #1DA1F2 !important;
+}
+footer .ourFlowers .bsfacebok {
+  background-color: #007bc7 !important;
+}
+footer .ourFlowers .bsgoogle {
+  background-color: #f2441d !important;
+}
+footer .ourFlowers .bspinterest {
+  background-color: #f2391d !important;
+}
+footer .ourFlowers span {
+  margin-left: 10px;
+  font-size: 15px;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  text-transform: capitalize;
+}
+footer .ourFlowers img,
+footer .ourFlowers svg {
+  vertical-align: middle;
+  background: rgb(0, 0, 0);
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 50%;
+  transition: 0.4s;
+  cursor: pointer;
+  color: #fff;
+}
+footer .ourFlowers img:hover,
+footer .ourFlowers svg:hover {
+  background-color: #000000 !important;
+}
+footer .privecy {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+footer .privecy p {
+  margin-bottom: 0;
+  font-size: 15px;
+  color: #000000;
+}/*# sourceMappingURL=Footer.css.map */

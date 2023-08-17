@@ -1,0 +1,243 @@
+:root {
+  --back-color: #f8f9fa;
+  --btn-color: #f3426d;
+  --hover: rgb(231, 166, 44);
+}
+
+.flasd .card {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  border-radius: 0 !important;
+}
+.flasd .card:hover .car_btn {
+  opacity: 1 !important;
+}
+.flasd .card:hover .hover_item {
+  display: block !important;
+}
+.flasd .card img {
+  height: 200px;
+  position: relative;
+  -o-object-position: top;
+     object-position: top;
+}
+.flasd .card p {
+  margin: 0;
+  white-space: wrap;
+  font-family: "Poppins", sans-serif;
+}
+.flasd .card::before {
+  content: "SALE!";
+  display: inline-block;
+  position: absolute;
+  z-index: 100;
+  top: 10px;
+  left: 10px;
+  background-color: #f3426d;
+  color: #fff;
+  font-size: 15px;
+  padding: 0px 5px;
+}
+.flasd .card .card-body {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.flasd .card .card-body .car_btn {
+  position: absolute;
+  top: -37px;
+  text-align: center;
+  display: block;
+  background: #777;
+  width: 100%;
+  left: 0;
+  padding: 5px 0;
+  transition: 0.4s;
+  opacity: 0;
+}
+.flasd .card .card-body .car_btn:hover {
+  background-color: var(--btn-color);
+  color: #ffffff;
+}
+.flasd .card .card-body .car_btn a {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-weight: 400;
+}
+.flasd .card .card-body .card-text p {
+  font-size: 15px;
+  color: #141313;
+  /* font-weight: 200; */
+  color: #000000;
+  font-weight: 400;
+}
+.flasd .card .card-body .card-text strong {
+  font-size: 15px;
+  color: #000;
+  font-weight: 500;
+}
+.flasd .card .card-body .card-text strong span {
+  font-size: 12px;
+  text-decoration: line-through;
+  font-weight: 300;
+}
+.flasd .card .card-body .card-text .star span {
+  font-size: 18px;
+  color: #e9253f;
+}
+.flasd .card .hover_item {
+  background-color: #f3426d;
+  display: none;
+  transition: 0.4s;
+}
+.flasd .card .hover_item .icon_product {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.flasd .card .hover_item .icon_product .hover-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+}
+.flasd .card .hover_item .icon_product .hover-content:hover a {
+  background-color: var(--btn-color);
+  display: block;
+}
+.flasd .card .hover_item .icon_product .hover-content a {
+  font-size: 15px;
+  color: var(--back-color);
+  text-transform: capitalize;
+  z-index: 100;
+  color: #fff;
+  margin-bottom: 0 !important;
+  padding: 0 5px;
+  display: none;
+  transition: 0.4s;
+  position: absolute;
+  left: -77px;
+  cursor: pointer;
+  transition: 0.4s;
+  /* background: antiquewhite; */
+}
+.flasd .card .hover_item .icon_product .hover-content .view {
+  text-decoration: none;
+  left: -42px;
+}
+.flasd .card .hover_item .icon_product .hover-content .buy {
+  left: -34px;
+  text-decoration: none;
+}
+.flasd .card .hover_item .icon_product .hover-content .whis {
+  left: -63px;
+  text-decoration: none;
+}
+.flasd .card .hover_item .icon_product .hover-content span {
+  color: #777;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: all 0.3s;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 100 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flasd .card .hover_item .icon_product .hover-content span:hover {
+  background-color: var(--btn-color);
+  color: #fff;
+}
+.flasd .card .hover_item .icon_product .hover-content span:hover a {
+  background-color: var(--btn-color);
+  color: #fff;
+}
+.flasd .rowColumm {
+  height: auto;
+}
+.flasd .timeCOunt {
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.flasd .timeCOunt .cicle {
+  text-align: center;
+  height: 60%;
+}
+.flasd .timeCOunt .cicle .circlItem {
+  background-color: var(--btn-color);
+  min-height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px auto;
+}
+.flasd .timeCOunt .cicle .circlItem h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.flasd .timeCOunt .cicle h4 {
+  font-size: 20px;
+}
+.flasd .timeCOunt .cicle span {
+  font-size: 18px;
+}
+.flasd .timeItem {
+  height: 35%;
+}
+.flasd .timeItem h3 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 22px;
+}
+.flasd .timeItem .item-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flasd .timeItem .item-box .item-list {
+  margin: 0 2px;
+  line-height: 2px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.flasd .timeItem .item-box .item-list h3 {
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+  color: black;
+}
+.flasd .timeItem .item-box .item-list p {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 575px) {
+  .flasd .rowColumm {
+    width: 50% !important;
+  }
+  .flasd .rowColumm .card img {
+    height: 150px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .flasd .rowColumm:nth-child(1) {
+    width: 100% !important;
+    height: 100%;
+  }
+}/*# sourceMappingURL=Flas.css.map */

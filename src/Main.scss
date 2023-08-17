@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:wght@700&family=Inter:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@300&display=swap');
+:root {
+    --back-color: #f8f9fa;
+    --btn-color: #f3426d;
+    --hover: rgb(231, 166, 44);
+ }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+ 
+
+}
+
+html {
+  font-family: 'Poppins', sans-serif !important;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #e8edf1;
+  font-family: 'Poppins', sans-serif !important;
+
+}
+ul {
+  padding: 0;
+  margin: 0;
+
+}
+
+
+li,
+a {
+  list-style: none !important;
+  text-decoration: none;
+
+
+}
+
+button {
+  outline: none;
+  border: none !important;
+
+}
+section{
+  padding: 4% 0;
+}
+img{
+  object-fit: cover;
+}
+.form-control:focus {
+  outline: none !important; 
+  box-shadow:none !important;
+}
+.heading h1 {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.main-heading {
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ gap: 10px;
+ h1{
+    font-size: 32px;
+    padding: 1rem 0;
+    text-transform: capitalize !important;
+ 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+
+
+
+    
+    span{
+      margin-right: 5px;
+      img{
+        background-color: #000;
+        object-fit: cover;
+        object-position: top;
+      }
+    }
+  }
+
+}
+
+.sub {
+  font-size: 20px;
+  transition: all .5s;
+  cursor: pointer;
+text-transform: capitalize;
+font-weight: 400;
+line-height: 1.5rem;
+}
+ 
+.pr {
+  font-size: 14px;
+  font-weight: 300;
+  opacity: .9;
+
+}
+.my-btn{
+ background-color: #f3426d !important;
+ text-transform: capitalize;
+ font-size: 16px;
+ font-weight: 600;
+ padding: 5px 20px;
+ transition: all .5s;
+ color: #fff;
+ &:hover{
+  background-color: #000 !important;
+   
+ }
+}
+
+
+.close {
+  position: absolute;
+  right: 5px;
+  ;
+  top: 5px;
+  font-size: 25px;
+  font-weight: 600;
+
+  &:hover{
+    color: var(--btn-color);
+  }
+}
+
+
+
+// menu bar
+
+
+
+
+
+@media screen and (max-width:768px) {
+  html{
+    font-size: 85% !important;
+  }
+  
+}
+@media screen and (max-width:400px) {
+  html,body {
+    font-size: 99% !important;
+  }
+    .car_btn {
+    position: absolute;
+    top: -33px !important;
+    text-align: center;
+    display: block;
+    background: #777;
+    width: 100%;
+    left: 0;
+    padding: 5px 0;
+    transition: 0.4s;
+    opacity: 0;
+    a{
+      font-size: 14px !important;
+    }
+}
+// hot deails
+ 
+.hot-deals .card img {
+  height: 150px !important;
+  position: relative;
+  object-position: top;
+}
+.hot-deals .card .card-body .card-text strong {
+  font-size: 14px !important;
+  color: #000;
+  font-weight: 500;
+}
+
+.flasd .card .card-body .car_btn a {
+  font-size: 14px !important;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.hero{
+  width: 100%;
+  height: 70vh;
+
+   
+      img{
+          width: 100%;
+          height: 50vh;
+          object-fit: cover;
+          
+  }
+   
+
+
+}
+
+// main heading
+
+.main-heading {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+
+  h1{
+    font-size:24px;
+  }
+
+  img{
+    margin-bottom:0 !important;
+  }
+  .products {
+    font-size: 85% !important;
+}
+}
+
+ 
+}
+@media screen and (min-width:768px) {
+  .products {
+    background-color: #fff;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    width: 75% !important;
+}
+  
+}

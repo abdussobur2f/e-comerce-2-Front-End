@@ -1,0 +1,19 @@
+.payment_section {
+  background-color: #F5F5F5;
+}
+.payment_section .wrapper_payment {
+  background-color: #fcfcfc;
+  padding: 2rem 0;
+}
+.payment_section .wrapper_payment .payment_item {
+  text-align: center;
+}
+.payment_section .wrapper_payment .payment_item h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+.payment_section .wrapper_payment .payment_item p {
+  font-size: 15px;
+  color: #777;
+}/*# sourceMappingURL=Payment.css.map */

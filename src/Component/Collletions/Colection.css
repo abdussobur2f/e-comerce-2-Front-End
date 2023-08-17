@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea:wght@700&family=Inter:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@300&display=swap");
+:root {
+  --back-color: #f8f9fa;
+  --btn-color: #f3426d;
+  --hover: rgb(231, 166, 44);
+}
+
+.collection .bigColection {
+  position: relative;
+  margin-bottom: 20px;
+}
+.collection .bigColection .borderBack {
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+.collection .bigColection .borderBack h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-top: 60px;
+  color: var(--btn-color);
+}
+.collection .bigColection .borderBack p {
+  line-height: 25px;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 500;
+}
+.collection .bigColection .borderBack a {
+  font-size: 16px;
+  color: #000;
+  position: relative;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.collection .bigColection .borderBack a span svg {
+  transform: rotate(330deg);
+  font-size: 20px;
+  transition: all 0.3s !important;
+}
+.collection .bigColection .borderBack a:hover span svg {
+  transform: rotate(360deg);
+  color: var(--btn-color);
+}
+.collection .bigColection .borderBack a:hover {
+  color: var(--btn-color);
+}
+.collection .bigColection .borderBack a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  top: 22px;
+}
+.collection .small_collection {
+  position: relative;
+  margin-bottom: 20px;
+}
+.collection .small_collection .collectionImg img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+  min-width: 100%;
+  -o-object-position: top;
+     object-position: top;
+}
+.collection .small_collection .back_content {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+.collection .small_collection .back_content p {
+  text-transform: capitalize;
+  font-size: 22px !important;
+  font-weight: 400;
+}
+.collection .small_collection .back_content a {
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+}
+.collection .small_collection .back_content a span svg {
+  transform: rotate(330deg);
+  font-size: 20px;
+  transition: all 0.3s !important;
+}
+.collection .small_collection .back_content a:hover span svg {
+  transform: rotate(360deg);
+  color: var(--btn-color);
+}
+.collection .small_collection .back_content a:hover {
+  color: var(--btn-color);
+}
+.collection .small_collection .back_content a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  top: 22px;
+}
+
+@media screen and (max-width: 991px) {
+  .childColection .borderBack h2 {
+    padding-top: 20px;
+  }
+  .childColection .borderBack p {
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=Colection.css.map */

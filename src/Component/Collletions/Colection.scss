@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:wght@700&family=Inter:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@300&display=swap');
+
+:root {
+    --back-color: #f8f9fa;
+    --btn-color: #f3426d;
+    --hover: rgb(231, 166, 44);
+}
+
+.collection {
+ 
+   
+ 
+
+.bigColection{
+
+    position: relative;
+margin-bottom: 20px;
+     
+
+    .borderBack {
+ position: absolute;
+ top: 0;
+ left: 50px;
+        h2 {
+            text-transform: uppercase;
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            margin-bottom: 20px;
+            padding-top: 60px;
+            color: var(--btn-color);
+        }
+
+        p {
+            line-height: 25px;
+            text-transform: capitalize;
+            font-size: 30px;
+            font-weight: 500;
+
+        }
+
+        a {
+            font-size: 16px;
+            color: #000;
+position: relative;
+font-weight: 500;
+            text-decoration: none;
+            margin-top: 20px;
+
+            span svg {
+                transform: rotate(330deg);
+                font-size: 20px;
+                transition: all .3s !important;
+            }
+
+            &:hover span svg  {
+                transform: rotate(360deg);
+                color: var(--btn-color);
+            }
+
+            &:hover  {
+                color: var(--btn-color);
+            }
+
+            &::before{
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                background-color: #000000;
+                top: 22px;
+
+            
+        
+                 
+            }
+
+        }
+    }
+
+
+
+}
+
+
+
+
+
+   .small_collection{
+ position: relative;
+   
+  margin-bottom: 20px;
+
+.collectionImg{
+ img {
+        object-fit: cover;
+        height: 200px;
+       min-width: 100%;
+        object-position: top;
+    }
+}
+      
+
+
+              .back_content {
+position: absolute;
+top: 20px;
+left:30px;
+                  p {
+                      
+                      text-transform: capitalize;
+                      font-size: 22px !important;
+                      font-weight: 400;
+                       
+      
+                  }
+      
+                  a {
+                      font-size: 16px;
+                      color: #000;
+      font-weight: 500;
+                      text-decoration: none;
+      position: relative;
+                      span svg {
+                          transform: rotate(330deg);
+                          font-size: 20px;
+                          transition: all .3s !important;
+                      }
+      
+                      &:hover span svg {
+                          transform: rotate(360deg);
+                          color: var(--btn-color);
+                      }
+      
+                      &:hover {
+                          color: var(--btn-color);
+                      }
+      
+                      &::before{
+                          content: '';
+                          position: absolute;
+                          width: 100%;
+                          height: 2px;
+                          background-color: #000000;
+                          top: 22px;
+          
+                      
+                  
+                           
+                      }
+                  }
+              }
+               
+          }
+      
+      
+   }
+    
+
+
+
+
+
+@media screen and (max-width:991px) {
+    .childColection {
+ 
+
+        .borderBack {
+            h2 {
+                padding-top: 20px;
+
+            }
+
+            p {
+                font-size: 30px;
+
+            }
+
+        }
+    }
+
+}

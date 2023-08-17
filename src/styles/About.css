@@ -1,0 +1,11 @@
+.about img {
+  height: 300px;
+  border-radius: 0 !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.about ul li {
+  font-weight: 500;
+}/*# sourceMappingURL=About.css.map */

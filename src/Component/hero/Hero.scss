@@ -1,0 +1,55 @@
+.hero{
+    width: 100%;
+    height: 70vh;
+
+     
+        img{
+            width: 100%;
+            height: 70vh;
+            object-fit: cover;
+            
+    }
+     
+
+
+}
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+  height: 100% !important;
+}
+
+ 
+  ul.slick-dots li.slick-active {
+  width: 30px;
+}
+.slick-dots li button:before {
+ display:none !important;
+}
+.slick-dots {
+  position: absolute;
+  bottom: 0 !important;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+ 
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 5px !important;
+ border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(168, 35, 11) !important;
+}
